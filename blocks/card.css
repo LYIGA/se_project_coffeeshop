@@ -1,0 +1,15 @@
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  width: 780px;
+  height: 100px;
+  list-style: none;
+}
+
+.card__title {}
+
+.card__list-item {}
+
+.card__list-divider {}

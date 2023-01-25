@@ -1,0 +1,33 @@
+.body {
+    font-family: "Inter";
+    background-color: #cccccc;
+}
+
+.menu {
+  background-image: url("../images/background_menu.svg");
+     height: 100px;
+  background-color: #0a2750;
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu__title {
+  font-family: Noto Serif;
+font-style: italic;
+font-weight: normal;
+font-size: 60px;
+line-height: 72px;
+color: #2F80ED;
+  }
+
+.menu__subtitle {
+  text-align: center;
+  font-size: 24px;
+  line-height: 100px;
+  font-weight: 780;
+  margin: 24px 0 0;
+}
+
+

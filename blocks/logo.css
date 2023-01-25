@@ -1,0 +1,9 @@
+.logo {
+  width: 145px;
+  height: 25px;
+  background-color: #FFFFFF;
+  background-image: url("https://code.s3.yandex.net/web-code/logo_coffee_shop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
