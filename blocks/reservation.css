@@ -1,0 +1,25 @@
+.form__fieldset {
+    display: flex;
+}
+
+.reservation__title {
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+max-width: 385px;
+margin: 0 auto;
+text-align: center;
+}
+
+.reservation {
+    padding: 100px 120px;
+    background-image: url("../images/background_reservation.svg");
+    text-align: center;
+}
+
+.reservation__form {
+    width: 385px;
+    display: flex;
+}

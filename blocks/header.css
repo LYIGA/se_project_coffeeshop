@@ -10,7 +10,7 @@
 }
 
 .header__title {
-font-family: Noto Serif;
+font-family: "Serif";
 font-style: italic;
  font-weight: normal;
  font-size: 60px;
@@ -19,14 +19,14 @@ font-style: italic;
 }
 
 .header__description {
- font-family: Noto Serif;
+ font-family: "Serif";
   font-style: normal;
   font-weight: normal;
    }
 
 .header__image {
     position: absolute;
-    top: 124;
+    top: 124px;
     right: 20px;
     max-width: 646px;
     z-index: 1;
@@ -63,7 +63,14 @@ margin-left: 0;
 color: #838383;
 }
 
-.header__span-accent {}
+.header__span-accent {
+font-family: "Serif";
+font-style: italic;
+font-weight: normal;
+font-size: 60px;
+line-height: 72px;
+color: #2F80ED;
+}
 
 .footer__column-content-hours {
     font-family: Inter;

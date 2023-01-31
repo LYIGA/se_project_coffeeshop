@@ -1,206 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Fluid Coffee Bar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Smith Akin's portfolio at practicum">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Smith Akin">
-</head>
- <main>
-  <div class="page">
-    <header class="header">
-      <nav class="nav">
-        <img
-          src="./images/logo_coffee_shop.svg"
-          alt="coffee shop logo"
-          class="logo"
-        />
-        <ul class="nav__links">
-          <li>
-            <a class="nav__link" href="#menu">Menu</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#recipes">Recipes</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#booktable">Booktable</a>
-          </li>
-          <li>
-            <a class="Nav__link" href="about">About</a>
-          </li>
-          <li>
-            <a class="nav__link" href="footer">Contacts</a>
-          </li>
-        </ul> 
-      </nav>
-      <h1 class="header__title">
-        <span class="header__span-accent">Speacilty Coffee</span>
-        <span>in the Practicum Library</span>
-      </h1>
-      <p class="header__description">
-        Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative
-      </p>
-<img
-src="./images/inside_coffee_shop.png"
-alt="Ilustration 'Inside the coffee shop'"
-class="header__image"
-/>
-<div class="header__footer">
-  <a class="header__link" href="#about">About coffee shop &darr;</a>
-  <p class="header__address">
-    200 Success Avenue, The Town of Practicum
-  </p>
-</div>
-</header>
-<!--div class="footer__column footer__column-content-hours">
-  <p class="footer__column-heading">Hours</p>
-  <ul class="footer__list">
-    <li class="footer__list-item">Weekdays: 10:00-19:00</li>
-    <li class="footer__list-item">Weekends: 11:00-18:00</li>
-    <li class="footer__list-item">Address: 200 Success Avenue, The Town of Practicum</li>
-  </ul>
-  </div>-->
-  <!--li class="card__list-item">
-          <li class="card__list-item">
-     Macchiato<span class="card__list-divider"></span> $2.25 (25ml)
-  </li>
-  <li class="card__list-item">
-    Cartado <span class="card__list-divider"></span> $2.5 (50ml)
-  </li>
-  <li class="card__list-item">
-    Mocha <span class="card__list-divider"></span> $3 (250ml)
-  </li>
-  <li class="card__list-item">
-    Sunrise in bay Area <span class="card__list-divider"></span> $10 (250ml)
-  </li>
-  <li class="card__list-item">
-    Aeropress <span class="card__list-divider"></span> $5.5 (250ml)
-  </li>--> 
-  <main class="content">
-  <section class="menu" id="menu">
-    <h2 class="menu__title">Menu-list</h2>
-    <p class="menu__subtitle">Speciality coffee</p> 
-  
-    <div class="menu__cards">
-      <div class="card">
-        <h3 class="card__title">Filter</h3>
-        <ul class="card__content">
-          <li class="card__list-item"></li>
-          <li class="card__list-item">
-          Regular(1.2 oz)<span class="card__list-divider"></span> $1 
-        </li>
-        <li class="card__list-item">
-       Large(16 oz) <span class="card__list-divider"></span> $1.25
-       </li>
-      <li class="card__list-item">
-       XL(20 oz) <span class="card__list-divider"></span> $1.5 
-  </li>
-  <li class="card__list-item">
-  Party-size(21 oz,decaf) <span class="card__list-divider"></span> $1.75
-  </li>
-  <li class="card__list-item">
-  Iced Coffee(16 oz) <span class="card__list-divider"></span> $1.25
-  </li>
-</ul>
-</div>
-    <div class="menu__cards">
-      <div class="card">
-        <h3 class="card__title">Baked Goods</h3>
-        <ul class="card__content">
-          <li class="card__list-item"></li>
-          <li class="card__list-item">
-     Almond Croissant<span class="card__list-divider"></span> $2 
-  </li>
-  <li class="card__list-item">
-    Banana Bread <span class="card__list-divider"></span> $1.75
-  </li>
-  <li class="card__list-item">
-  Key Lime Pie <span class="card__list-divider"></span> $3 
-  </li>
-  <li class="card__list-item">
-   Blue Velvet Cake <span class="card__list-divider"></span> $3.75
-  </li>
-  <li class="card__list-item">
-   Web Cookie <span class="card__list-divider"></span> $2
-  </li>
-  <li class="card__list-item">
-    Fresh Bug'gette<span class="card__list-divider">$0.25</span>
-  </li>
-</ul>
-</div>
-</div>
-  </section>
-  <section id="recipes" class="recipes">
-    <h2 class="recipes__title">Recipes</h2>
-    <p class="recipes__subtitle">
-      check out some recipes we've collected for your home-brewing convinience
-    </p>
-    <div class="recipe__videos">
-      <div class="recipe__video-item">
-        <iframe
-        class="recipe__iframe"
-        width="560"
-        height="315"
-        src="https://www.youTube.com/embed/J6VIT_jUVPc"
-        title="YouTube video palyer"
-        allow="acelerometer; autoplay; clipboard-write; encrypted-media gyroscope"
-        allowfullscreen
-        ></iframe>
-        <p class="recipes__video-caption">
-          <span>Aeropress recipe</span>~5min
-        </p>
-      </div>
-      <div class="recipe__video-item">
-        <iframe
-        class="recipe__iframe"
-        width="560"
-        height="315"
-        src="https://www.youTube/embed/st571DYYTR8"
-        title="YouTube Video player"
-        allow="acelerometer; autoplay; clipboard-write;encrypted-media;gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        ></iframe>
-        <p class="recipes__video-caption">
-        <span>French press recipes</span>~15min
-      </p>
-      </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Fluid Coffee Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Smith Akin's portfolio at practicum">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Smith Akin">
+  </head>
+     <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img src="./images/logo_coffee_shop.svg" alt="coffee shop logo" class="logo" />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#booktable">Booktable</a>
+            </li>
+            <li>
+              <a class="nav__link" href="about">About</a>
+            </li>
+            <li>
+              <a class="nav__link" href="footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Speacilty Coffee</span>
+          <span>in the Practicum Library</span>
+        </h1>
+        <p class="header__description"> Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative </p>
+        <img src="./images/inside_coffee_shop.png" alt="Ilustration 'Inside the coffee shop'" class="header__image" />
+        <div class="header__footer">
+          <a class="header__link" href="about">Speciality coffee &darr;</a>
+          <p class="header__address"> 200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu-list</h2>
+          <p class="menu__subtitle">Speciality coffee</p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item"> Regular(12oz) <span class="card__list-divider"></span> $1 </li>
+                <li class="card__list-item"> Large(16 oz) <span class="card__list-divider"></span> $1.25 </li>
+                <li class="card__list-item"> XL(20 oz) <span class="card__list-divider"></span> $1.5 </li>
+                <li class="card__list-item"> Party-size(21 oz,decaf) <span class="card__list-divider"></span> $1.75 </li>
+                <li class="card__list-item"> Iced Coffee(16 oz) <span class="card__list-divider"></span> $1.25 </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item"> Macchiato <span class="card__list-divider"></span> $2.25 (25ml) </li>
+                <li class="card__list-item"> Cartado <span class="card__list-divider"></span> $2.5 (50ml) </li>
+                <li class="card__list-item"> Mocha <span class="card__list-divider"></span> $3 (250ml) </li>
+                <li class="card__list-item"> Sunrise in bay Area <span class="card__list-divider"></span> $10 (250ml) </li>
+                <li class="card__list-item"> Aeropress <span class="card__list-divider"></span> $5.5 (250ml) </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item"></li>
+                <li class="card__list-item"> Almond Croissant <span class="card__list-divider"></span> $2 </li>
+                <li class="card__list-item"> Banana Bread <span class="card__list-divider"></span> $1.75 </li>
+                <li class="card__list-item"> Key Lime Pie <span class="card__list-divider"></span> $3 </li>
+                <li class="card__list-item"> Blue Velvet Cake <span class="card__list-divider"></span> $3.75 </li>
+                <li class="card__list-item"> Web Cookie <span class="card__list-divider"></span> $2 </li>
+                <li class="card__list-item"> Fresh Bug'gette <span class="card__list-divider">$0.25</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+          <section id="recipes" class="recipes">
+      <h2 class="recipes__title">Recipes</h2>
+      <p class="recipes__subtitle"> check out some recipes we've collected for your home-brewing convinience </p>
+      <div class="recipes__videos">
+        <div class="recipes__video-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="recipes__video-caption">
+            <span>Aeropress recipe</span>
+            <span>~5min</span>
+        
+          </div>
+          </div>
+        <div class="recipes__video-item">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="recipes__video-caption">
+            <span>French press recipes</span>~15min
+          </p>
+        </div>
+        </div>
     </section>
+    <!-- <section class="about" id="about">
+      <h2 class="about__title">About the coffee shop</h2>
+      <div class="about__content">
+        <p class="about__paragraph"> Our Coffee Shop is located in the Practicum Library's hall. It features 6 tables and free WIFI. </p>
+        <p class="about__paragraph"> Our main mission is keeping guests cozy and engaged. Beside that, we try to reduce our environmental impact-so we don't sell single-use cup. But you can buy one of our reusable cups. </p>
+      </div>
+      <div class="about__circle about__circle_animation_blured"></div>
+      <div class="about__circle"></div>
+    </section> -->
     <section id="Book-a-table" class="reservation">
       <h2 class="reservation__title">Book a table</h2>
       <form class="form reservation__form">
+        <fieldset>
         <fieldset class="form__fieldset">
-          <label for="name" class="form__label">Name*</label>
+          <label for="name" class="form__label">Name*
           <input
+           class="form__input" 
+           type="text" 
+           placeholder="Name Surname" 
+           id="name" 
+           required
+            />
+          </label>
+          <label for="date" class="form__label">Date*
+          <input 
           class="form__input"
-          type="text"
-          placeholder="Name Surname"
-          id="name"
-          required
-          />
-          <label for="guest" class="form__label">Number of guest*</label>
-          <input
-          class="form__input"
+           type="datetime-local" 
+           id="date" 
+           required 
+           />
+          </label>
+          <label for="guest" class="form__label">Number of guest*
+          <input 
+          class="form__input" 
           type="number"
-          placeholder="1-8"
-          min="1"
-          max="8"
-          id="guest"
-          required
-          />
+           placeholder="1-8" 
+           min="1" 
+           max="8" 
+           id="guest"
+            required
+             />
+        </label>
         </fieldset>
-
+        <label for="email" class="form__label">Email*
+        <input
+         class="form__input" 
+         type="text" 
+         placeholder="email" 
+         id="email" 
+         required 
+         />
+         </label>
+        <fieldset>
+          <button class="form__class">Save</button>
+        </fieldset>
+          <label for="checkbox" class="form__label">
+            <input 
+            class="form__input" 
+            type="text" 
+            placeholder="checkbox" 
+            id="checkbox" 
+            required 
+            /> 
+            Checkbox*
+           </label>
+        </fieldset>
       </form>
     </section>
-      </iframe>
-     </div>
-    </div>
-  </section>
- </main> 
-</div>
-</body>
-</html>
+   </section>
+    <section class="about" id="about">
+      <h2 class="about__title">About the coffee shop</h2>
+      <div class="about__content">
+        <p class="about__paragraph"> Our Coffee Shop is located in the Practicum Library's hall. It features 6 tables and free WIFI. </p>
+        <p class="about__paragraph"> Our main mission is keeping guests cozy and engaged. Beside that, we try to reduce our environmental impact-so we don't sell single-use cup. But you can buy one of our reusable cups. </p>
+      </div>
+      <div class="about__circle about__circle_animation_blured"></div>
+      <div class="about__circle"></div>
+    </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__columns">
+        <h2 class="footer__column">
+          <img class="footer__logo" 
+          src="./images/practicum_logo.svg" 
+          alt="footerlogo" 
+          />
+        </h2>
+      
+        <div class="footer__column footer__column-content-social">
+          <h2 class="footer__column-heading">Social Media</h2>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook Log" />
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Insagram Log" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy;2023 Akin Smith</p>
+    </footer>
+  </div>
+  </body>
+  </html>

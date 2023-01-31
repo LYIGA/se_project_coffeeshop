@@ -1,5 +1,6 @@
 .card {
-  background-color: #fff;
+  background-color: #0a2750; 
+  background-image: url(../images/background_menu.svg);
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
@@ -8,8 +9,15 @@
   list-style: none;
 }
 
-.card__title {}
+.card__title {
+  display: flex;
+}
 
-.card__list-item {}
+.card__list-item {
+  display: flex;
+  text-align: justify;
+}
 
-.card__list-divider {}
+.card__list-divider {
+display: flex;
+}
