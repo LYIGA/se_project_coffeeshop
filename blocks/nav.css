@@ -1,22 +1,31 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .nav__links {
     display: flex;
+    font-family: "Inter", Arial,sans-serif;
+    top: 30px;
+    right: 80px;
+    margin-bottom: auto;
+    list-style-type: none;
+    position: relative;
+    font-weight: 500;
+    line-height: 20px;
     align-items: center;
     list-style: none;
-    padding-left: 0;
-    margin-top: 5px;
-    column-gap: 20px;
 }
 
 .nav__link {
+    margin-right: 20px;
+    text-decoration: none;
     color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    transition-property: color;
+    transition-duration: .75s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
 }
 
 .menu__link {

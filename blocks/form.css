@@ -1,28 +1,37 @@
-.reservation__form {
-    background-color: #D9E7FF;
-    list-style-type: none;
-    padding: 0%;
+.form {
+  padding: 20px 128px;
 }
-.form__input [type="checkbox"] {
+
+
+.form__fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0 0 32px;
+}
+
+.form__label {
+ margin-bottom: 32px;
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  background-color: #fff;
   border-radius: 4px;
+  padding: 19px 20px;
+  border: 1px solid #838383;
+}
+
+.form__input [type="checkbox"] {
+  border-radius: 2px;
   min-width: 28px;
   min-height: 28px;
   vertical-align: middle;
 }  
 
-.form__fieldset {
-    display: flex;
-    flex-direction: column;
-    border: none;
-    padding: 0px;
-  margin-bottom: 32px;
-}
-
-.form {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
 
 .form__checkbox {
   margin: 0 12px 0;
@@ -30,56 +39,34 @@
   height: 20px;
   display: flex;
   margin-right: 12px;
+  width: 20px;
 }
 
 .form__label__type__checkbox {
     justify-content: center;
 }
 
-.form__label {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 0;
-  width: 385px;
-  padding-bottom: 8px;
-  display: flex;
-  justify-content: center;
-}
-
 .form__input::placeholder {
-  font-size: 60px;
+  font-size: 20px;
+  line-height: 30px;
   color: #838383;
 }
 
 .form__button {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #2f88ed;
   border-radius: 4px;
+  width: 100%;
+  background-color: #2f88ed;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  cursor: pointer;
+  padding: 20px 32px;
 }
 
 .form__button:hover {
-  opacity: 100% 70%;
+  opacity: 0.7;
 }
 
-.form__input {
-  width: 385px;
-  box-sizing: border-box;
-  font-family: "Inter, Arial, sans-serif";
-  font-size: 20px;
-  line-height: 30px;
-  border-radius: 4px;
-  height: 60px;
-  margin-bottom: 32px;
-}
-
-.form__terms {
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-}
+.form__checkbox-size {
+  width: 20px;
+  height: 20px;
+} 

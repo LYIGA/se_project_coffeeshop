@@ -1,23 +1,32 @@
 .card {
-  background-color: #0a2750; 
-  background-image: url(../images/background_menu.svg);
-  border-radius: 6px;
-  padding: 32px 40px 20px 32px;
+  max-width: 600px;
+  /* display: flex;
+  flex-direction: column; */
   box-sizing: border-box;
-  width: 780px;
-  height: 100px;
   list-style: none;
+  flex-basis: 45%;
 }
 
 .card__title {
-  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 32px;
 }
 
 .card__list-item {
-  display: flex;
-  text-align: justify;
+  display: flex; 
+  padding-bottom: 16px;
+  color: #fff;
 }
 
 .card__list-divider {
-display: flex;
+border-bottom: 1px solid #fff;
+flex-grow: 1;
 }
+
