@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Fluid Coffee Bar</title>
@@ -162,14 +165,14 @@
          </fieldset>
          <fieldset class="form__fieldset">
            <label
-            class="form__label form__label-checkbox" 
-            for="terms-of-use-checkbox"
-            >
+            for="termsofuse"
+            > 
             <input
-            type="checkbox"
-            class="form__input form__input-checkbox form__checkbox-size"
-            required
-            />
+              class="form__input form__input-checkbox form__checkbox-size"
+                type="checkbox"
+                  id="termsofuse"
+                  required
+              />
             I agree with the terms of use
            </label>
          </fieldset>
@@ -198,13 +201,15 @@
           <h2 class="footer__column-heading">Social Media</h2>
           <ul class="footer__list">
             <li class="footer__list-item">
-              <a class="footer__column-link" href="#">
+              <a class="footer__social-link" href="#">
                 <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook Log" />
+                Facebook
               </a>
             </li>
             <li class="footer__list-item">
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Insagram Log" />
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram Log" />
+                Instagram
               </a>
             </li>
           </ul>
