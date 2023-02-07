@@ -9,31 +9,36 @@
 } */
 }
 .menu__title {
- font-family:  "Inter", serif;
+ font-family:  "Inter", "Arial", sans-serif;
  font-weight: 500;
  font-size: 44px;
+ font-style: normal;
  line-height: 52px;
- color: #2F80ED;
  text-align: center;
- margin: 0 0 24px;
+ padding-top: 100px;
+ margin: 0;
+ margin-bottom: 0;
 }
 
 .menu__subtitle {
  font-family: "Noto Serif", "Times New Roman", serif;
  width: 780px;
  margin-left: 80px;
- margin-right: auto;
- margin-bottom: 0 auto;
+ margin-bottom: 0;
  font-size: 20px;
  text-align: center;
  line-height: 30px;
+  padding-top: 24px;
   color: #fff;
 }
 
 .menu__cards {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 17px 40px;
-  margin-top: 71px;
+  padding: 100px 100px 100px;
+  gap: 100px;
 }
+
+ .menu__cards:last-of-type {
+  justify-content: center;
+} 

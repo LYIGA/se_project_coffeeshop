@@ -7,12 +7,11 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    margin:0 0 50px;
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
     box-sizing: border-box;
-    z-index: -2;
+    z-index: 2;
 }
 
 .header__title {
@@ -104,11 +103,11 @@
     margin: 0;
 }
 
-.header__paragraph_address{
+/* .header__paragraph_address{
       margin-right: 80px;
   color: #6F6F6F;
   position: absolute;
   top: 40px;
   right: 80px;
   z-index: 2;
-}
+} */
