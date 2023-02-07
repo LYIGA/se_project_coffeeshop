@@ -53,7 +53,7 @@ margin-left: auto;
 
 .footer__list {
   list-style-type: none;
-  color: #fff; 
+  color: #fff;
   padding: 0;
   margin: 0; 
 }
@@ -66,7 +66,7 @@ margin-left: auto;
   margin-bottom: 16px;
 }
 
-.footer__social-link {
+/* .footer__social-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -74,7 +74,7 @@ margin-left: auto;
   display: flex;
   align-items: center;
   transition: color 1s linear; 
-} 
+}  */
 
 .footer__social-icon {
   width: 16px;

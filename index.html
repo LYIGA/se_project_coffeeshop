@@ -27,13 +27,13 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#booktable">Booktable</a>
+              <a class="nav__link" href="#bookatable">Booktable</a>
             </li>
             <li>
-              <a class="nav__link" href="about">About</a>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li>
-              <a class="nav__link" href="footer">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -44,8 +44,13 @@
         <p class="header__description"> Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative </p>
         <img src="./images/inside_coffee_shop.png" alt="Ilustration 'Inside the coffee shop'" class="header__image" />
         <div class="header__footer">
-          <a class="header__link" href="about">Speciality coffee &darr;</a>
-          <p class="header__address"> 200 Success Avenue, The Town of Practicum
+          <div class="header__hours">
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Mon-fri: 10:00-19:00</p>
+            <p class="header__paragraph">Sat-sun: 11:00-18:00</p>
+          </div>
+          <!-- <a class="header__link" href="about">Speciality coffee &darr;</a> -->
+          <p class="header__paragraph"> 200 Success Avenue, The Town of Practicum
           </p>
         </div>
       </header>
@@ -118,7 +123,7 @@
             </div>
           </div>
         </section>
-    <section id="Book-a-table" class="reservation">
+    <section id="bookatable" class="reservation">
       <h2 class="reservation__title">Book a table</h2>
       <form class="form reservation__form">
       
@@ -162,14 +167,15 @@
          </fieldset>
          <fieldset class="form__fieldset">
 
-           <button type="submit" class="reservation__button">Book a table</button>
+           <button type="submit" class="form__button">Book a table</button>
          </fieldset>
          <fieldset class="form__fieldset">
            <label
+           class="form__label form__label_type_checkbox"
             for="termsofuse"
             > 
             <input
-              class="form__input form__input-checkbox"
+              class="form__input-checkbox"
                 type="checkbox"
                   id="termsofuse"
                   required
@@ -189,7 +195,7 @@
       <div class="about__circle"></div>
     </section>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="footer__content">
           <img
             src="./images/practicum_logo.svg"

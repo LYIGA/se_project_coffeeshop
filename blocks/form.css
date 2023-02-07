@@ -51,7 +51,8 @@
   width: 20px;
 }
 
-.form__label__type__checkbox {
+.form__label_type_checkbox {
+  flex-direction: row;
     justify-content: center;
 }
 
