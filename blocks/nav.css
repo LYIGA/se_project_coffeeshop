@@ -33,7 +33,7 @@
 } */
 
 .nav__link {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     text-decoration: none;
     color: #000000;
     transition-property: color;

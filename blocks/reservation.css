@@ -19,7 +19,7 @@
 
 .reservation__form {
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter","Arial", sans-serif;
     max-width: 641px;
     margin: 0 auto;
 }

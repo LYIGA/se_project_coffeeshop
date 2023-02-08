@@ -44,11 +44,13 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   z-index: 2;
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -75,14 +77,14 @@
     padding-right: 80px;
 }
 
-.header__link {
+/* .header__link {
     color: #2f80ed;
     text-decoration: none;
-}
+} */
 
-.header__link:hover {
+/* .header__link:hover {
     color: #2F80ED;
-}
+} */
 
 .header__span-accent {
     display: block;

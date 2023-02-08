@@ -75,13 +75,14 @@
   padding: 20px 32px;
   margin: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 .form__button:hover {
   opacity: 0.7;
 }
 
-.form__checkbox-size {
+/* .form__checkbox-size {
   width: 20px;
-  height: 20px;
-} 
+  height: 20px; 
+}  */
