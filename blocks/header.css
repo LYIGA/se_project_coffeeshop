@@ -49,8 +49,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 33px 0 0;
 }
 
 .header__image {

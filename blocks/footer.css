@@ -66,6 +66,9 @@ margin-left: auto;
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
 /* .footer__social-link {
   color: white;
   font-size: 16px;
