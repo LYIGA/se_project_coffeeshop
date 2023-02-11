@@ -2,8 +2,9 @@
   position: relative;
   width: 125px;
   height: 142px;
-  top: 30px;
-  left: 30px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 80px;
   background-color: #FFFFFF;
   background-image: url("https://code.s3.yandex.net/web-code/logo_coffee_shop.svg");
   background-size: cover;
