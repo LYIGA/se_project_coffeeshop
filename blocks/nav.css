@@ -14,30 +14,24 @@
         padding: 0; 
     }
 
-
-
-
-/* .nav__links {
-    display: flex;
-    font-family: "Inter", Arial,sans-serif;
-    gap: 20px;
-    top: 30px;
-    padding-right: 80px;
-    margin: 0;
-    list-style-type: none;
-    position: relative;
+.nav__link{
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+    font-style: normal;
     font-weight: 500;
-    line-height: 20px; 
-    align-items: center;
-    list-style: none; 
-} */
+    font-size: 16px;
+    line-height: 20px;
 
+
+
+/* 
 .nav__link {
     /* margin-right: 20px; */
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.3s ease-in-out;
-}
+    /* text-decoration: none; */
+    /* color: #000000; */
+    /* transition: color 0.3s ease-in-out; */
+} */
 
 /* .menu__link {
 font-family: "Noto Serif", "Times New Roman", serif;
