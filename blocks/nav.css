@@ -1,7 +1,8 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
+    padding-left: 30px;
 }
 
 .nav__links {
@@ -15,6 +16,7 @@
     }
 
 .nav__link{
+    font-family: "Inter", "Arial", sans-serif;
     color: black;
     text-decoration: none;
     transition: color 0.2s linear 0s;
@@ -24,19 +26,6 @@
     line-height: 20px;
 }
 
-/* .menu__link {
-font-family: "Noto Serif", "Times New Roman", serif;
-font-style: italic;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-color: #2F80ED;
-} */
 
-/* .recipe__link {
-font-family: "Inter", "Arial", sans -san-serf;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-} */
+
+

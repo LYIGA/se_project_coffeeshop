@@ -19,13 +19,26 @@
 .header__title {
     font-family: "Inter", Arial, sans-serif;
     max-width: 729px;
-    margin-top: 80px;
+    margin-top: 202px;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 72px;
-    margin: 0 0 0 50px;
     margin-bottom: 28px; 
+}
+
+.header__description {
+ font-family: "Noto Serif", "Times New Roman", serif;
+ max-width: 683px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* padding-top: 20px; */
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+   margin: 0;
 }
 
 .header__address {
@@ -36,20 +49,6 @@
     font-family: "Inter", "Arial", sans-serif;
     font: 16px;
     line-height: 20px;
-}
-
-.header__description {
- font-family: "Noto Serif", "Times New Roman", serif;
- max-width: 729px;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  /* padding-top: 20px; */
-  z-index: 2;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-   margin: 0;
 }
 
 .header__image {
