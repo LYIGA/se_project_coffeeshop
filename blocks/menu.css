@@ -42,7 +42,7 @@
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 100px 100px;
+  padding: 100px 100px 0;
   gap: 100px;
 }
 
